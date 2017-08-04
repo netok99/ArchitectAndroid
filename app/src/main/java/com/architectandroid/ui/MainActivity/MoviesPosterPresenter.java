@@ -16,4 +16,9 @@ public class MoviesPosterPresenter implements MoviesPosterContract.Presenter {
         this.view = view;
         this.dataSource = dataSource;
     }
+
+    @Override
+    public void getMoviesPoster(int page) {
+
+    }
 }
